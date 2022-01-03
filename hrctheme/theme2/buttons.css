@@ -1,0 +1,52 @@
+.button{}
+
+.buttonmid{}
+
+.buttonmidblue{
+    background: url("img/btn-mid-blue-bg.png") repeat-x scroll 0 0 #529EC4;
+    border: 1px solid #4F8FAE;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    /*behavior: url(/_layouts/portalv2/js/pie.htc);*/
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    /*font-weight: bold;*/
+    line-height: 20px;
+    padding: 5px 10px;
+    min-width : 90px;
+    white-space: nowrap;    
+    text-align: center;
+ 
+
+}
+header .buttonmidblue{margin: 0 5px;}
+header .buttonmidblue .icon{margin-right: 30px;}
+
+.buttonsmallred{
+    background:#ED1C24;
+    cursor: pointer;
+}
+.buttonsmallblue{
+    background:#AFCDDB;
+    cursor: pointer;
+}
+.buttonsmalldarkgrey{
+    background:#A5A5A5;
+    cursor: pointer;
+    display: block;
+}
+.buttonsmallgrey{
+	background: url("img/btn-small-grey-bg.png") repeat-x repeat-y scroll 0 0 #E7E7E7;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    color: #B51920;
+    border:1px solid #CFCFCF;
+    font-size: 10px;
+    margin: 0 1px;
+    padding: 2px 8px;
+    cursor:pointer;
+    line-height: 20px;
+}

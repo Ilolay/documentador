@@ -1,0 +1,95 @@
+.portfolio-website {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.website-thumbnail {
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.website-thumbnail img {
+	border: 1px solid #555;
+	margin: 0;
+	padding: 0;
+}
+.website-name {
+	font-size: 12pt;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+.website-name a,.website-url a {
+	text-decoration: none;
+}
+.website-name a:hover,.website-url a:hover {
+	text-decoration: underline;
+}
+.website-url {
+	font-size: 9pt;
+	font-weight: bold;
+}
+.website-url a {
+	color: #666666;
+}
+.website-description {
+	margin-top: 15px;
+}
+.website-clear {
+	clear: both;
+}
+
+.portfolio-paging {
+	text-align: center;
+	padding: 4px 10px 4px 10px;
+	margin: 0 10px 20px 10px;
+}
+.portfolio-paging .page-count {
+	margin-bottom: 5px;
+}
+.portfolio-paging .page-jump b {
+	padding: 5px;
+}
+.portfolio-paging .page-jump a {
+	text-decoration: none;
+}
+
+
+.portfolio-website				{ padding: 0px; margin: 0px; padding-bottom: 20px; }
+.portfolio-website .website-thumbnail 		{ margin: 0px; }
+.portfolio-website .website-thumbnail img	{ display: block; width: 200px; height: 150px; margin-bottom: 0px; padding: 2px; border: 1px solid #CECECE; background: #FFFFFF; }	
+.portfolio-website .website-name 		{ font-size: 16px; padding-top: 5px; margin-left: 226px; }
+.portfolio-website .website-name a		{ text-decoration: none; }
+.portfolio-website .website-name a:hover	{ text-decoration: none; }
+.portfolio-website .website-url			{ margin-left: 226px; } 
+.portfolio-website .website-url a		{ color: #666666; text-decoration: none; }
+.portfolio-website .website-url a:hover		{ color: #333333; text-decoration: underline; }
+.dark .portfolio-website .website-url a		{ color: #bbbbbb;}
+.dark .portfolio-website .website-url a:hover	{ color: #ffffff;}
+.portfolio-website .website-description		{ line-height: 16px; margin: 0px; padding-top: 10px; margin-left: 226px; }
+.wpp-creditlink					{ display: none; }
+
+.portfolio-cols h2			{padding-right: 20px;}
+.portfolio-cols p			{padding-right: 20px;}
+.columns .portfolio-website		{ width: 278px; height: 200px; background: url('../images/bck_95-16.png'); padding: 6px 6px 0px 6px; float: left; margin-bottom: 20px; margin-right: 15px; text-align: center; position: relative; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; } 
+.columns .website-thumbnail		{ float: none; width: 274px; height: 145 px; border: 2px solid #FFFFFF; margin: 0px; }
+.columns .website-thumbnail a		{ display: block; width: 274px; height: 145px; overflow: hidden; border-width: 0px; }
+.columns .website-thumbnail img		{ display: block; width: 274px; height: auto; border-width: 0px; padding: 0px; margin-top: }
+.columns .website-name 			{ color: #333333; padding-top: 6px; margin: 0px; white-space: nowrap; overflow: hidden; width: 100%; border-top:1px solid #DDDDDD; }
+.columns .website-name a,
+.columns .website-name a:hover		{ color: #333333; } 
+.dark .columns .website-name a,
+.dark .columns .website-name a:hover	{ color: #FFFFFF; }
+.columns .website-url			{ font-weight: normal;  font-size: 11px; padding: 0px; line-height: 16px; margin: 0px; white-space: nowrap; overflow: hidden; width: 100%; }
+.columns .website-description		{ width: 220px; margin: 0px; padding: 12px 15px 14px 15px; font-size: 11px; line-height: 14px; background: url('../images/bck_33-80.png'); -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; position: absolute; top: -10px; left: 20px; display: none; color: #bbbbbb; -moz-box-shadow: 0px 0px 2px rgba(255, 255, 255, .5); -webkit-box-shadow: 0px 0px 2px rgba(255, 255, 255, .5); box-shadow: 0px 0px 2px rgba(255, 255, 255, .5);}
+.columns .website-description h2,
+.columns .website-description h3,
+.columns .website-description h4,
+.columns .website-description h5,
+.columns .website-description h6	{ color: #FFFFFF; margin: 0px !important; padding-right: 0px; }
+.columns .website-description strong	{ color: #FFFFFF; }
+.columns .website-description p		{ color: #BBBBBB; padding: 5px 0px 0px 0px; }
+.columns .portfolio-website:hover .website-description {display: block; }
+
+.mainbar .columns .portfolio-website		{ width: 271px; margin-right: 14px; }
+.mainbar .columns .website-thumbnail		{ width: 267px; }
+.mainbar .columns .website-thumbnail a		{ width: 267px; }
+.mainbar .columns .website-thumbnail img	{ width: 267px; } 
+.mainbar .columns .website-description		{ width: 219px; left: 16px; }

@@ -1,0 +1,300 @@
+/**************************************/
+/* ---------- CONTACT PAGE ---------- */
+/**************************************/
+
+#contact form {
+	padding-bottom: 5px;
+}
+#contact .clear {
+	padding-bottom: 5px;
+}
+#contact label {
+	display: block;
+	width: 150px;
+	line-height: 24px;
+	float: left;
+	cursor: pointer;
+}
+#contact label.right {
+	width: auto;
+}
+#contact label.empty {
+	cursor: auto;
+}
+#contact label.required {
+	background: url('../images/arrow_red.gif') 137px 7px no-repeat;
+}
+#contact input {
+	color: #333333;
+}
+#contact .input {
+	display: block;
+	width: 250px;
+	height: 18px;
+	float: left;
+	border: 1px solid #CECECE;
+	font-family: arial;
+	font-size: 12px;
+	padding: 2px;
+}
+#contact .checkbox {
+	display: block;
+	float: left;
+	position: relative;
+	top: 2px;
+	left: -4px;
+}
+#contact textarea {
+	color: #333333;
+	display: block;
+	width: 350px;
+	height: 100px;
+	float: left;
+	border: 1px solid #CECECE;
+	font-family: arial;
+	font-size: 12px;
+	padding: 2px;
+	margin: 0px;
+}
+#contact select {
+	color: #333333;
+	display: block;
+	width: auto;
+	height: auto;
+	float: left;
+	border: 1px solid #CECECE;
+	font-family: arial;
+	font-size: 12px;
+	padding: 2px;
+}
+#contact .confirm {
+	padding-top: 10px;
+	padding-left: 150px;
+}
+#contact .submit {
+	display: block;
+	float: left;
+	border: 1px solid #CECECE;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 2px 10px 2px 10px;
+	background: url('../images/bck_95-25.png');
+	cursor: pointer;
+}
+#contact .submit {
+	color: #333333;
+}
+#contact .terms {
+	float: right;
+	padding-top: 2px;
+}
+.wpcf7 br {
+	display: none;
+}
+.wpcf7 form {
+	padding: 40px;
+	background: url('../images/bck_95-16.png');
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin-bottom: 20px;
+	color: #666666;
+}
+.wpcf7 form p{
+	width: 200px;
+}
+.dark .wpcf7 form {
+	color: #bbbbbb;
+}
+.wpcf7 form .rule_light {
+	height: 15px;
+	padding: 0px;
+	margin: 0px;
+	background: none;
+}
+.wpcf7 .clear {
+	padding-bottom: 5px;
+	clear: both;
+	margin: 0px 15px 0px 15px;
+}
+.wpcf7 label {
+	display: block;
+	width: 150px;
+	line-height: 24px;
+	float: left;
+	cursor: pointer;
+}
+.wpcf7 label.right {
+	width: auto;
+}
+.wpcf7 label.empty {
+	cursor: auto;
+}
+.wpcf7 label.required {
+	background: url('../images/arrow_red.gif') 137px 7px no-repeat;
+	font-weight: bold;
+	color: #333333;
+}
+.dark .wpcf7 label.required {
+	color: #FFFFFF;
+}
+.wpcf7 input {
+	color: #333333;
+}
+.wpcf7 .wpcf7-text {
+	background: url(../images/bck_input.png) top left repeat-x #FFFFFF;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+.wpcf7 .field-text input {
+	display: block;
+	width: 250px;
+	height: 18px;
+	float: left;
+	border: 1px solid #CECECE;
+	font-family: arial;
+	font-size: 12px;
+	padding: 2px;
+}
+.wpcf7 .wpcf7-checkbox input {
+	display: block;
+	float: left;
+	left: -4px;
+	position: relative;
+	top: 2px;
+}
+.wpcf7 .checkbox {
+	display: block;
+	float: left;
+	position: relative;
+	top: 2px;
+	left: -4px;
+}
+.wpcf7 textarea {
+	color: #333333;
+	display: block;
+	width: 350px;
+	height: 100px;
+	/*float: left;*/
+	border: 1px solid #CECECE;
+	font-family: arial;
+	font-size: 12px;
+	padding: 2px;
+	margin: 0px;
+	background: url(../images/bck_textarea.png) top left repeat-x #FFFFFF;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+.wpcf7 select {
+	color: #333333;
+	display: block;
+	width: auto;
+	height: auto;
+	float: left;
+	border: 1px solid #CECECE;
+	font-family: arial;
+	font-size: 12px;
+	padding: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+.wpcf7 .confirm {
+	padding-top: 15px;
+	padding-left: 165px;
+	padding-bottom: 15px;
+	background: url('../images/bck_95-16.png');
+	margin: 0px;
+}
+.wpcf7 .confirm input {
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	border-width: 0px;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 2px 12px 2px 12px;
+	background: #333333;
+	cursor: pointer;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.wpcf7 .confirm input:hover {
+	color: #32B6D9;
+}
+.wpcf7 .wpcf7-captcha-captcha {
+	border: 2px solid #cacaca;
+	display: block;
+	float: left;
+	margin: 0px 10px 0px 0px;
+	padding: 1px;
+	background: #FFFFFF !important;
+	padding: 0px !important;
+}
+.wpcf7 .captcha input {
+	display: block;
+	width: 100px;
+	height: 18px;
+	float: left;
+	border: 1px solid #CECECE;
+	font-family: arial;
+	font-size: 12px;
+	padding: 2px;
+	background: url(../images/bck_input.png) top left repeat-x #FFFFFF;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+.wpcf7 .terms {
+	float: right;
+	padding-top: 2px;
+}
+.wpcf7 .wpcf7-list-item-label {
+	line-height: 24px;
+	width: auto;
+}
+.wpcf7 .wpcf7-form-control-wrap label {
+	width: auto !important;
+}
+span.wpcf7-checkbox {
+	float: left;
+}
+div.wpcf7-validation-errors {
+	border-width: 0px !important;
+	background: #F7E700;
+	color:#333333;
+}
+div.wpcf7-mail-sent-ok {
+	border-width: 0px !important;
+	background: #76BC00;
+	color:#FFFFFF;
+}
+div.wpcf7-response-output {
+	padding: 5px 10px 5px 10px !important;
+	margin: 10px 15px 0px 15px !important;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+span.wpcf7-not-valid-tip {
+	top: 4px !important;
+	left: -40px !important;
+	padding: 3px 8px 3px 8px !important;
+	background: #F93300 !important;
+	color: #FFFFFF;
+	border-width: 0px !important;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+div.wpcf7 img.ajax-loader {
+	border: none;
+	margin-left: 4px;
+	vertical-align: middle;
+	margin-bottom: 0px;
+}

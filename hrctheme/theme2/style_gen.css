@@ -1,0 +1,14 @@
+/*
+    Estilos generales para todas las vistas
+    */
+
+/*REPORTS*/
+.reporttxt_box {
+    overflow:scroll ;
+}
+.reporttxt_content {
+    font-family:Lucida Console;
+    font-size:9px;
+    width:850px;
+    color:black;    
+}

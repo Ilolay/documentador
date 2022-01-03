@@ -1,0 +1,48 @@
+﻿<%@ Master Language="VB" CodeFile="general.master.vb" Inherits="general_master"   %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server" id="headzone" >
+<title><%= coSystemTitle  %></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+<link href="estilos.css" rel="stylesheet" type="text/css" />    
+<base target="_self" />
+<asp:ContentPlaceHolder ID="conmasterheader" runat="server">                 
+</asp:ContentPlaceHolder>
+ <asp:ContentPlaceHolder ID="conHeader" runat="server">                 
+</asp:ContentPlaceHolder>
+</head>
+<body id="Body1" runat="server"> 
+    <form id="form1" runat="server">
+    <table style="width: 100%;" cellspacing="0" cellpadding="0">
+    <tr >
+    <td> 
+        <table id="pnlHeader" runat="server"  cellpadding="0" cellspacing="0" width="100%" class="hide_print" >
+        <tr style="vertical-align:top" >
+            <td style="background-repeat:repeat-x ;background-image:url(imagenes/master_header_background.jpg);height:50px" >                       
+                 <img src="imagenes/logo.PNG" alt="" />
+            </td>
+            <td  style="padding-left:5px;padding-top:5px;background-repeat:repeat-x ;background-image:url(imagenes/master_header_background.jpg); width:150px" align="left">                     
+                <b><%= coSystemTitle  %></b>
+                <img src="imagenes/separadormenu.jpg" border="0" alt="" /> 
+            </td>
+            <td class="form-control-read" style=" background-repeat:repeat-x ;background-image:url(imagenes/master_header_background.jpg);width:200px; text-align:left; padding-top:5px" >
+                <asp:HyperLink runat="server" ID="lblSecDsc" CssClass="form-control-read" NavigateUrl="hrcmyconfig.aspx"  />
+            </td>
+            <td style="background-repeat:repeat-x ;background-image:url(imagenes/master_header_background.jpg); text-align:left;padding-top:5px " >
+                 <%= Session("user_menu") %>           
+            </td>
+        </tr>        
+        </table> 
+       </td>
+    </tr>
+    <tr>
+            <td >
+               <asp:ContentPlaceHolder ID="ContentDatos" runat="server" />
+            </td>
+        </tr>        
+    </table>      
+    <iframe ID="KeepAliveFrame" src="hrcKeepAlive.aspx" frameborder="0" width="0" height="0" runat="server"></iframe>
+    </form>
+</body>
+</html>

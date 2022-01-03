@@ -1,0 +1,31 @@
+/*--------toolbox-------*/
+.left{float: left !important;}
+.right{float: right !important;}
+.overflow{overflow:hidden !important;}
+.clear{clear:both !important;}
+.noclear{clear:none !important;}
+.nofloat{float:none !important;}
+.full{width: auto !important;}
+.none{display: none !important;}
+.block{display: block !important;}
+.relative{position: relative !important;}
+.half{width:50% !important;}
+.gutter-right{margin-right:5px; !important;}
+.gutter-left{margin-left:5px; !important;}
+.align_left{text-align: left !important;}
+.align_center{text-align: center !important;}
+.align_right{text-align: right !important;}
+.clearfix:after{
+    clear:both;
+    content:' ';
+    display:block;
+    font-size:0;
+    line-height:0;
+    visibility:hidden;
+    width:0;
+    height:0
+}
+* html .clearfix,
+*:first-child+html .clearfix{
+    zoom:1
+}

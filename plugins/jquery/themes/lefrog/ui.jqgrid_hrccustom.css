@@ -1,0 +1,18 @@
+.form-control-textbox {
+    background: #5C9CCC url(images/ui-bg_gloss-wave_55_5c9ccc_500x100.png) 50% 50% repeat-x;
+    border: 1px solid #4297D7;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.form-control-label{
+  -webkit-font-smoothing: antialiased;
+  color: #333;
+  font: 15px/22.5px "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+}
+
+.forn-control-cell{
+}

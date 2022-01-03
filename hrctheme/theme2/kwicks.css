@@ -1,0 +1,36 @@
+.kwicks {
+	/* recommended styles for kwicks ul container */
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+}
+.dark .kwicks {background-color: #FFFFFF;}
+.kwicks li{
+	/* these are required, but the values are up to you (must be pixel) */
+	width: 225px;
+	height: 320px;
+
+	/*do not change these */
+	display: block;
+	overflow: hidden;
+	padding: 0;  /* if you need padding, do so with an inner div (or implement your own box-model hack) */
+}
+.kwicks.horizontal li {
+	/* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
+	margin-right: 0px; /*Set to same as spacing option. */	
+	float: left;
+}
+.kwicks.vertical  li{
+	/* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
+	margin-bottom: 0px; /*Set to same as spacing option. */	
+}
+.kwicks-caption {
+        width: 225px;
+}
+.kwicks li .kwicks-shadow   	{ background: transparent url('../images/kwicks-shadow.png') top right no-repeat; height: 370px; position: absolute; right: 0px; top: 0px; width: 27px; }
+.kwicks-caption 		{ position: absolute; right: 10px; bottom: 10px; padding: 12px 15px 14px 15px; width: 175px; background: url('../images/description.png'); -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;}
+.kwicks-caption h2		{ color: #333333; font-size: 14px; padding: 0px; margin: 0px; }
+.dark .kwicks-caption h2	{ color: #333333; }
+.kwicks-caption p		{ color: #333333; font-size: 11px; line-height: 14px; padding: 5px 0px 0px 0px; margin: 0px; }

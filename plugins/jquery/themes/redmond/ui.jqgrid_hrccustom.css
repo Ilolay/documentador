@@ -1,0 +1,45 @@
+/* oscuro
+.form-control-textbox2 {
+    background: #5C9CCC url(images/ui-bg_gloss-wave_55_5c9ccc_500x100.png) 50% 50% repeat-x;
+    border: 1px solid #4297D7;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+*/
+
+.form-control-textbox{
+	border: 1px solid #c5dbec;
+	background: #dfeffc url(images/ui-bg_glass_85_dfeffc_1x400.png) 50% 50% repeat-x;
+	font-weight: bold;
+	color: #2e6e9e;
+  padding: 5px;
+    /*margin: 5px;*/
+    border-radius: 5px;
+font-size:11px;
+}
+
+.form-control-label{
+  -webkit-font-smoothing: antialiased;
+  color: #333;
+  font: 15px/22.5px "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+}
+
+.form-control-autosuggest-item{
+	color:black;
+	font-size: 10px;
+	color: #2b3840;
+	background: #5C9CCC url(images/ui-bg_gloss-wave_55_5c9ccc_500x100.png) 50% 50% repeat-x;
+    	border: 1px solid #4297D7;
+	background-color: #ddeefe;		
+	padding: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0 1px 1px #e4edf2;
+	-webkit-box-shadow: 0 1px 1px #e4edf2;
+	-moz-box-shadow: 0 1px 1px #e4edf2;
+    min-height:24px!important ;
+}

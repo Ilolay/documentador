@@ -1,0 +1,30 @@
+.loan {
+	width: 480px;
+}
+
+.loan div {
+	border: 1px solid #999;
+	margin: 1px;
+}
+body {
+    font-family: arial;
+    font-size: 12px;
+	}
+.loan .loan_src {
+	float: left;
+	width: 236px;
+	height: 190px;
+}
+
+.loan .loan_pmt {
+	float: right;
+	width: 236px;
+	height: 190px;
+}
+
+.loan .loan_out {
+	clear: both;
+	overflow: auto;
+	width: 476px;
+	height: 200px;
+}
